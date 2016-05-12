@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.0"
+  }
+}
