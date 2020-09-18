@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
 
 
         await page.setViewport({width: 1024, height: 768, deviceScaleFactor: 1});
-        await page.goto('http://zzzzz.com/methode/rapports/');
+        await page.goto('http://zzzzz.com/rapports/');
         await page.screenshot({
                 path: '/chemin_stockage/graph.png',
                 clip: { x:10,y:40, width:1005,height:300 }
